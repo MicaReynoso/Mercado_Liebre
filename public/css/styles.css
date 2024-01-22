@@ -334,15 +334,10 @@ footer section{display: flex;
     .products article{
         flex-basis: 23%;
     } 
-
-    h4.descripcion{
-        display: block;
-        color: white;
+    .products article:hover > .descripcion{
+        display:block;
     } 
-    .products:hover{
-      color:#000;
-      transition: .descripcion 0.5s;
-    } 
+    
   
     .product-delivery-icon:hover {transform: rotate(-0.25turn);
         transition: all 2s;
