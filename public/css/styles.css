@@ -334,7 +334,7 @@ footer section{display: flex;
     .products article{
         flex-basis: 23%;
     } 
-    .products article:hover > .descripcion{
+    .products article:hover .descripcion{
         display:block;
     } 
     
