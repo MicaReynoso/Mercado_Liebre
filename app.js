@@ -6,7 +6,7 @@ const publicPath = path.resolve(__dirname, './public')
 app.use(express.static(publicPath))
 
 const port = process.env.PORT || 3001;
-app.listen(port, () => console.log('Servidor corriendo en el puerto ${port}'))
+app.listen(port, () => console.log(`Servidor corriendo en el puerto ${port}`))
 
 app.get("/", function (req, res){
     const homepath = path.join(__dirname, "/views/home.html")
